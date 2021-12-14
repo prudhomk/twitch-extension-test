@@ -12,3 +12,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.appendChild(onAuth(tuid));
   });
 });
+
+const button = document.getElementById('button')
+document.addEventListener('click', () => {
+    console.log('I was clicked!');
+});
